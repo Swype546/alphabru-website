@@ -8,9 +8,9 @@ use DI\ContainerBuilder;
 use Slim\Factory\AppFactory;
 use Slim\Factory\ServerRequestCreatorFactory;
 
-DEFINE(VENDOR_DIR, '/../private/vendor/');
-DEFINE(VAR_DIR, '/../private/var/');
-DEFINE(APP_DIR, '/../private/app/');
+DEFINE('VENDOR_DIR', '/../vendor/');
+DEFINE('VAR_DIR', '/../var/');
+DEFINE('APP_DIR', '/../app/');
 
 require __DIR__ . VENDOR_DIR.'autoload.php';
 
